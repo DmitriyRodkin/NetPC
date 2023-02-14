@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+*{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: rgb(32,47,115);
+    background: linear-gradient(45deg, rgba(32,47,115,1) 0%, rgba(159,29,255,1) 100%);
+}
+footer{
+    background: rgb(32,47,115);
+    background: linear-gradient(135deg, rgba(32,47,115,1) 0%, rgba(0,0,0,1) 100%);
+    max-height: 300px;
+}
+.header_nav_list{
+    display: flex;
+    list-style-type: none;
+}
+.logo_img{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    padding-right: 150px;
+}
+.header_nav_list {
+    float: left;
+}
+.header_nav_list{
+    display: flex;
+    padding-left: 20px;
+}
+.container{
+    display: flex;
+    max-width: 1400px;
+    padding:  20px 0px;
+}
+.about-us{
+    display: flex;
+}
+.text_about{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.command-wrapper{
+    padding-right: 250px;
+    padding-top: 60px;
+}
+.pc-about{
+    max-width: 700px;
+    max-height: 700px;
+}
+.search_padding{
+    padding-left: 300px;
+}

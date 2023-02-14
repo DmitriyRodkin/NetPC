@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+*{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: rgb(32,47,115);
+    background: linear-gradient(45deg, rgba(32,47,115,1) 0%, rgba(159,29,255,1) 100%);
+    background-repeat: no-repeat;
+}
+footer{
+    background: rgb(32,47,115);
+    background: linear-gradient(135deg, rgba(32,47,115,1) 0%, rgba(0,0,0,1) 100%);
+    max-height: 300px;
+}
+.navbar{
+    color: white;
+}
+.header_nav_list{
+    display: flex;
+    list-style-type: none;
+}
+.logo_img{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    padding-right: 150px;
+}
+.header_nav_list {
+    float: left;
+}
+.header_nav_list{
+    display: flex;
+    padding-left: 20px;
+}
+.container{
+    display: flex;
+    max-width: 1400px;
+    padding:  20px 0px;
+}
+.section_geforce--img{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.section_amd--img{
+    display: flex;
+    width: 400px;
+    height: 250px;
+}
+.videocard{
+    display: flex;
+}
+.about_AMD{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.search_padding{
+    padding-left: 300px;
+}
+.carousel-item{
+    max-height: 500px;
+}
+.command-wrapper{
+    padding-right: 250px;
+    padding-top: 60px;
+}
+.section_assembly{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section_video{
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer__text--rights{
+    margin-bottom: 0px;
+}
+.footer__text--rights{
+    margin-bottom: 0px;
+}
+.footer-cantact-wrapper{
+    text-align: right;
+}
+.footer-content-wrapper .icons-wrapper img{
+    padding-left: 10px;
+}
+.footer-content-wrapper p{
+    line-height: 200%;
+}
+.footer-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+    font-weight: 700;
+}
